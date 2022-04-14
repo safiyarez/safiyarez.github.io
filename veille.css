@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* header */
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    color: #030303;
+    padding: 0 2rem;
+    background-color: transparent;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 820px;
+    border: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.btn a{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(252, 210, 161);
+    color: #fff;
+    padding: 8px;
+}
+
+
+/* Hero */
+
+.page-content {
+	margin: 4%;
+    margin-top: 10%;
+	max-width: 80%;
+}
+
+.page-content h1 {
+	margin: 0;
+    margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+}
+.page-content p {
+	line-height: 30px;
+	color: #818181;
+}
+
+
+/* mon sujet  */
+
+.sujet {
+	margin: 4%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+	max-width: 80%;
+}
+
+.sujet h2 {
+	margin: 0;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+}
+.sujet p {
+    margin-left: 6%;
+	line-height: 30px;
+    font-size: 18px;
+	color: #030303;
+}
+
+
+
+/* explication sujet  */
+
+.service{
+    height: 400px;
+	width: 100%;
+	padding: 0px 0px; 
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+
+.card{
+	height: 300px;
+	width: 450px;
+	padding: 10px 10px;
+	background: rgb(252, 210, 161);
+	border-radius: 20px;
+	margin: 60px;
+    margin-top: 2%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+h5{
+	color: #030303;
+	font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.pra p{
+	color: #030303;
+	font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+	line-height: 27px;
+}
+
+
+
+/* outil de veille  */
+
+.outil {
+	margin: 4%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+	max-width: 80%;
+}
+
+.outil h2 {
+	margin: 0;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+}
+.outil p {
+    margin-left: 6%;
+	line-height: 30px;
+    font-size: 18px;
+	color: #030303;
+}
+
+
+/* Mes articles  */
+
+.articles{
+    margin-left: 55vh;
+}

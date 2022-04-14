@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact.php">
+</head>
+
+<body>
+    <header>
+
+        <div class="video-container">
+
+            <video autoplay loop muted width="100%">
+                <source src="Ocean - 62249.mp4" type="video/mp4" />
+            </video>   
+        </div>
+
+        <nav>
+            <div class="logo">
+                <p>Safiya Rezig</p>
+            </div>
+
+            <div class="toggle">
+                <i class="fa-solid fa-align-left ouvrir"></i>
+                <i class="fa-solid fa-xmark fermer"></i>
+            </div>
+
+            <ul class="menu">
+                <li class="btn"><a href="index.html">Accueil</a></li>
+                <li class="btn"><a href="profil.html">Profil</a></li>
+                <li class="btn"><a href="realisation.html">Mes réalisations</a></li>
+                <li class="btn"><a href="veille.html">Veille technologique</a></li>
+                <li class="btn"><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <form action="contact.php" method="post">
+
+        <h1>Contactez-moi</h1>
+
+        <div class="separation"></div>
+
+        <div class="corps-formulaire">
+
+          <div class="gauche">
+
+            <div class="groupe">
+              <label>Votre Prénom</label>
+              <input type="text" name="firstname" autocomplete="off" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="groupe">
+              <label>Votre adresse e-mail</label>
+              <input type="text" name="email" autocomplete="off" />
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="groupe">
+              <label>Votre téléphone</label>
+              <input type="text" name="message" autocomplete="off" />
+              <i class="fas fa-mobile"></i>
+            </div>
+
+          </div>
+  
+          <div class="droite">
+
+            <div class="groupe">
+              <label>Message</label>
+              <textarea placeholder="Saisissez ici..."></textarea>
+            </div>
+
+          </div>
+        </div>
+  
+        <div class="pied-formulaire" align="center">
+          <button>Envoyer le message</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

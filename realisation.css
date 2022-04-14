@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* header */
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    color: #030303;
+    padding: 0 2rem;
+    background-color: transparent;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+	margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 820px;
+    border: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.btn a{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(252, 210, 161);
+    color: #fff;
+    padding: 8px;
+}
+
+
+/* hero */
+
+.page-content {
+	margin: 4%;
+    margin-top: 10%;
+	max-width: 80%;
+}
+
+.page-content h1 {
+	margin: 0;
+    margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+}
+.page-content p {
+	line-height: 30px;
+	color: #818181;
+}
+
+
+/* mon stage  */
+
+.stage {
+	margin: 4%;
+    margin-top: 7%;
+	max-width: 80%;
+}
+
+.stage h2 {
+	margin: 0;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+}
+
+.stage h2 i{
+    color: rgb(252, 210, 161);
+}
+
+.stage p {
+    margin-left: 6%;
+	line-height: 30px;
+    font-size: 18px;
+	color: #030303;
+}
+
+
+/* PPE  */
+
+.PPE {
+	margin: 4%;
+    margin-top: 7%;
+	max-width: 80%;
+}
+
+.PPE h2 {
+	margin: 0;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+}
+
+.PPE h2 i{
+    color: rgb(252, 210, 161);
+}
+
+.PPE p {
+    margin-left: 6%;
+	line-height: 30px;
+    font-size: 18px;
+	color: #030303;
+}

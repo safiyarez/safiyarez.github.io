@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* header */
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    color: #030303;
+    padding: 0 2rem;
+    background-color: transparent;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+	margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 820px;
+    border: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.btn a{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(252, 210, 161);
+    color: #fff;
+    padding: 8px;
+}
+
+/* hero */
+
+.page-content {
+	margin: 4%;
+    margin-top: 10%;
+	max-width: 80%;
+}
+
+.page-content h1 {
+	margin: 0;
+    margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+}
+.page-content p {
+	line-height: 30px;
+	color: #818181;
+}
+
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+	margin-bottom: 8px;
+    font-size: 50px;
+    color: rgb(252, 210, 161);
+}
+
+.conatct-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* Formation */
+
+.service{
+    height: 400px;
+	width: 100%;
+	padding: 20px 0px; 
+}
+
+.title h2{
+	color: #030303;
+	font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+	width: 1000px;
+	margin: 0px auto;
+    margin-bottom: 0%;
+	text-align: center;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+
+.card{
+	height: 250px;
+	width: 325px;
+	padding: 10px 10px;
+	background: rgb(252, 210, 161);
+	border-radius: 20px;
+	margin: 60px;
+    margin-top: 2%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card i{
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #fff;
+
+}
+
+h5{
+	color: #030303;
+	font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+	margin-bottom: 15px;
+}
+
+.pra p{
+	color: #030303;
+	font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+
+
+/* experience pro */
+
+
+.projects-section {
+    text-align: center;
+	margin-top: 2%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.projects-section h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 2vw;
+}
+
+.projects-section .projects {
+    margin-left: 360px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projects-section .project {
+	margin-right: 80px;
+    margin-top: 15px;
+	max-width: 195px;
+}
+
+.projects-section .project h4 {
+	margin: 0;
+}
+
+.projects-section .project .description {
+	font-size: 16px;
+}
+
+.projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
+
+
+/* Loisir */
+
+.loisir-section h1{
+	margin-left: 48%;	
+}
+
+.loisir-section ul{
+	display: flex;
+	justify-content: space-evenly;
+    margin: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+	
+}
+
+.loisir-section ul li {
+	font-size: 25px;
+}
+
+.loisir-section ul li i {
+	margin-right: 10px;
+	color: rgb(252, 210, 161);
+}
+
+  
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .projects-section {
+		margin-top: 15%;
+	}
+
+	.projects-section h1 {
+		font-size: 1.5em;
+	}
+
+    .projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+
+	.projects-section .project .description {
+		font-size: 13px;
+	}
+}
