@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/1422bc4672.js" crossorigin="anonymous"></script> <!-- fontawesome permet d'importer du javascript -->
+    	<title>Document</title>
+    	<link rel="stylesheet" href="boutique.css">
+	</head>
+	
+	<body>
+
+		<header>
+			<nav class="nav">
+	
+				<img src="s_s_s__1_-removebg-preview.png" id="logo">
+	
+				<ul class="menu">
+					<b><li> <a style="text-decoration:none" href="enregistrement.html"> Enregistrement </a></li></b>
+					<b><li> <a style="text-decoration:none" href="connexion.html"> Connexion </a></li></b>
+				</ul>
+					
+			</nav>
+
+			<div class="video-container">
+
+				<video autoplay loop muted width="100%">
+					<source src="trim.3EC0D66F-0DCE-4938-8723-C34CF25888D5.mov" type="video/mp4" />
+				</video>   
+			</div>
+	
+		</header> 
+
+
+		<div class="boutique">
+
+			<form method="post" action="boutique.php">
+
+				<br> &#160;&#160; Bienvenue chez "POSSIBLEMENT", <br> <br> &#160;&#160;&#160; Séléctionez vos articles : <br> <br>
+
+				<!--liste déroulante-->
+
+				<label>&#160; <i class="fa-solid fa-venus-mars"></i> Genre : </label> <!-- "i class" est liée au javascript de fontawesome importé précédemment -->
+				<select class="listeDeroulante" name="genre" required>
+					<option value="" selected disabled hidden></option>
+					<option value="M">Homme</option>
+					<option value="F">Femme</option>
+				</select> <br> <br>
+
+				<label>&#160; <i class="fa-solid fa-shirt"></i> Type de vetement : </label>
+				<select class="listeDeroulante" name="type" required>
+					<option value="" selected disabled hidden></option>
+					<option value="Chemise">Chemise</option>
+					<option value="Pantalon">Pantalon</option>
+					<option value="Veste">Veste</option>
+					<option value="Robe">Robe</option>
+					<option value="Jupe">Jupe</option>
+				</select> <br> <br>
+
+				<label>&#160; <i class="fa-solid fa-ruler"></i> Taille : </label>
+				<select class="listeDeroulante" name="taille" required>
+					<option value="" selected disabled hidden></option>
+					<option type ="text" value="1an-6ans">1an-6ans</option>
+					<option type ="text" value="7ans-12ans">7ans-12ans</option>
+					<option type ="text" value="13ans-18ans">13ans-18ans</option>
+					<option type ="text" value="Adulte">Adulte</option>
+				</select> <br> <br>
+
+				<label>&#160; <i class="fa-solid fa-palette"></i> Couleur : </label>
+				<select class="listeDeroulante" name="couleur" required>
+					<option value="" selected disabled hidden></option>
+					<option value="Rouge">Rouge</option>
+					<option value="Vert">Vert</option>
+					<option value="Noir">Noir</option>
+					<option value="Beige">Beige</option>
+					<option value="Bleu">Bleu</option>
+				</select> <br> <br>
+
+				<label> &#160; <i class="fa-solid fa-scale-unbalanced-flip"></i> Quantité : </label> <input type="number" name="qte" id="qt" min="0" required/> 
+				<br> <br>
+				<label> &#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+				Consultation</label> <input type="radio" name="achoix" value="consulter"/> &nbsp; &nbsp; <!-- Consulter affiche le contenue de la base de donnée -->
+				<label> &#160; Achat </label> <input type="radio" name="achoix" value="acheter"/> <br> <br> <!-- acheter réduit la quantité de l'article concerné -->
+
+				<input class="bouton" type="submit" value="Envoi" />
+			</form>
+
+		</div>
+	</body>
+</html>

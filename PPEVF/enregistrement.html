@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enregistrement</title>
+    <link rel="stylesheet" href="enregistrement.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="nav">
+
+            <img src="s_s_s__1_-removebg-preview.png" id="logo"> 
+
+            <ul class="menu">
+                <b><li> <a style="text-decoration:none" href="enregistrement.html"> Enregistrement </a></li></b>
+                <b><li> <a style="text-decoration:none" href="connexion.html"> Connexion </a></li></b>
+            </ul>
+                
+        </nav>
+
+        <div class="video-container">
+
+            <video autoplay loop muted width="100%">
+                <source src="Fashion Show - 25245.mp4" type="video/mp4" />
+            </video>   
+        </div>
+
+    </header> 
+    
+    <div class="enregistrement">
+
+        <form method="post" name ="enregistrement2" action="enregistrement.php">
+            <br> <br>
+
+            <b><font class="text"  size="+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                INSCRIVEZ-VOUS: &nbsp;</font></b> <br><br>
+            <input class="inscription" type="text" name="nom"  placeholder="Nom" required/> <br><br>
+            
+            <input class="inscription" type="text" name="prenom" placeholder="Prenom" required/> <br/><br>
+
+            <input class="inscription" type="text" name="email" placeholder="myname@example.com" required /><br><br>
+
+            
+            <input class="inscription" type="password" name="pass" minlength="8" maxlength="16"  placeholder="Mot de passe" required/>
+            <p class="texteMDP">(Veuillez saisir entre 8 et 16 caractères) </p> 
+
+            <input class="inscription" type="password" name="confpass" minlength="8" maxlength="16" placeholder="Confirmer mot de passe" required/> <br/><br>
+           
+            <input  class="bouton" type="submit" value="Valider"/>
+        </form>
+
+    </div>
+    
+</body>
+
+</html>
